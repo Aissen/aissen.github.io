@@ -1,0 +1,349 @@
+/*
+	Based on Fold theme by tumblr
+*/
+
+body {
+	background: #222 url('img/bg.gif');
+	color: #555;
+	margin: 0 0 50px 50px;
+	font: 13px/1.54em Arial, Helvetica, sans-serif
+	}
+
+#dashboard {
+	position: absolute;
+	top: 0;
+	right: 1px;
+	float: right;
+	text-indent: -9999px;
+	background: url('img/dashboard.gif') no-repeat right top; 
+	width: 91px; 
+	height: 23px
+	}
+	
+a {
+	color: #111
+	}
+
+#container {
+	width: 560px;
+	padding: 50px 25px 25px;
+	background-color: #fff;
+	border-bottom: 8px solid #aaa
+	}
+
+#rss {
+	float: right;
+	text-indent: -9999px;
+	width: 36px;
+	height: 19px;
+	background: url('img/rss.gif') no-repeat top right
+	}
+
+h1 {
+	margin-top: 0;
+	width: 500px;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 1.0;
+	letter-spacing: -1px
+	}
+
+	h1 a {
+		color: #666;
+		text-decoration: none
+		}
+
+#description {
+	margin-top: -20px;
+	width: 500px;
+	font-size: 11px;
+	color: #777
+	}
+
+ul#menu {
+	margin: 10px 0 20px 0;
+	padding: 0
+	}
+
+ul#menu a {
+	color: #777
+	}
+	
+ul#menu li {
+	padding-right: 5px;
+	display: inline
+	}
+	
+div.hentry {
+	margin-bottom: 40px;
+	clear: both
+	}
+
+h2.date {
+	color: #ccc;
+	font-size: 24px;
+	font-weight: normal;
+	text-align: right;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+	}
+
+abbr { 
+	border: 0
+	}
+
+h3.entry-title {
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: -1px
+	}
+
+	h3.entry-title a {
+		color: #444;
+		text-decoration: none
+		}
+/*
+.link .permalink {
+	display: none
+	}
+*/
+.archive .link .permalink,		
+.home .link .permalink,		
+.home .quote .permalink,		
+/*.home .photo .permalink,*/
+.home .video .permalink {
+	float: right;
+	text-indent: -9999px;
+	width: 23px;
+	height: 9px;
+	background: url('img/link.gif') no-repeat
+	}
+/*.home .photo .permalink {
+	text-indent: 0;
+	width: auto;
+	height: auto;
+	padding-right:35px;
+	background-position: top right;
+	display:block;
+}
+*/
+.entry-content {
+	}
+
+div.text {
+	clear: both;
+	margin-top: 20px
+	}
+
+	div.text blockquote {
+		padding: 0 60px;
+		margin: 0
+		}
+	
+	div.text blockquote span {
+		font: bold 60px Georgia, serif;
+		float: left;
+		margin-top: -10px;
+		margin-bottom: -80px;
+		padding-bottom: 30px;
+		color: #ccc
+		}		
+	
+div.photo {
+	}
+	
+	div.photo img.figure {
+		border: 10px solid #eee;
+		/*display:block;
+		margin: 0 auto*/
+		}
+	
+	div.photo div.caption {
+		margin-top: -15px;
+		color: #888
+		}
+
+	div.photo div.caption a {
+		color: #888
+		}	
+
+div.quote {
+	}
+
+	div.quote blockquote {
+		padding: 0 60px;
+		margin: 0;
+		font-size: 24px;
+		line-height: 1.1;
+		color: #444
+		}
+	
+	div.quote blockquote a {
+		color: #444
+		}
+
+	div.quote blockquote span.ldquo {
+		font: bold 60px Georgia, serif;
+		float: left;
+		margin-top: -14px;
+		margin-bottom: -80px;
+		padding-bottom: 30px;
+		color: #ccc
+		}
+
+	div.quote p.source {
+		margin-top: -15px;
+		font-size: 16px;
+		color: #666
+		}
+	
+	div.quote p.source a {
+		color: #666
+		}
+				
+div.link {
+	}
+
+	div.link span.raquo {
+		font-size: 22px;
+		line-height: 1.2;
+		color: #666;
+		}
+	
+	div.link a.taggedlink {
+		font-size: 22px;
+		line-height: 1.2;
+		letter-spacing: -1px;
+		color: #666;
+		text-decoration: none;
+		border-bottom: 1px dotted #666
+		}
+	
+	div.link div.description {
+		color: #888;
+		margin-top: -10px
+		}
+	
+	body.search div.link span.raquo,
+	body.search div.link a.taggedlink {
+		font-size: 20px
+		}
+
+div.chat {
+	}
+	
+	div.chat ol {
+		clear: both;
+		list-style-type: none;
+		border-left: 5px solid #555;
+		margin: 0 0 20px;
+		padding: 0
+		}
+
+	div.chat ol li {
+		padding: 5px 10px;
+		border-bottom: 1px solid #fff
+		}
+	
+	div.chat ol li cite {
+		font-weight: bold
+		}
+	
+	div.chat ol li.odd {
+		background-color: #f4f4f4
+		}
+	
+	div.chat ol li.even {
+		background-color: #e8e8e8
+		}
+	
+	div.chat ol li blockquote {
+		margin: 0;
+		display: inline
+		}
+	
+div.video {
+	}
+	
+	div.video div.caption {
+		margin-top: -15px;
+		color: #888
+		}
+	
+	div.video div.caption a {
+		color: #888
+		}
+
+ul.meta {
+	font-size: 13px;
+	letter-spacing: 0;
+	line-height: 1.2;
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+	}
+
+	ul.meta li.entry-date,
+	ul.meta li.tags,
+	ul.meta li.author {
+		display: none
+		}
+ 
+	ul.meta li.editthis {
+		}
+ 
+#navigation {
+	width: 100%;
+	margin: 10px auto;
+	position: relative;
+	height: 20px
+	}
+
+#navigation a {
+	color: #444;
+	text-decoration: none
+	}
+
+#navigation a:hover {
+	color: #666;
+	text-decoration: underline
+	}
+
+#navigation span.next {
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block
+	}
+
+#navigation span.previous {
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block
+	}
+
+#navigation span.current {	
+	text-align: center;
+	display: block		
+	}
+
+#footer {
+	color: #eee;
+	font-size: 11px;
+	width: 600px
+	}
+
+#footer a {
+	color: #eee
+	}
+
+div#comments, #comment {padding: 20px 0px 20px 0px; width:550px;}
+div#comments-list h3 {margin: 0px 0px 10px 0px;}
+div#comments-list ol {list-style-type: none;}
+div#comments-list ol li.comment {border-top: 1px dashed #000;padding: 10px 0px 10px 0px;}
+div#comments-list ol li p {margin: 10px 0px 10px 0px;}
+
